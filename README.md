@@ -1,82 +1,52 @@
-\# Site Security Report
+# Site Security Report
 
+## Overview
+This project is a Python-based site security reporting tool. It assesses a website, collects relevant security information, and generates a security report in PDF format.
 
-
-\## Overview
-
-
-
-This project is a Python-based site security reporting tool.
-
-
-
-The purpose of this project is to assess a website, collect relevant security information, and generate a security report in PDF format.
-
-
-
-\## Project Structure
-
-
-
+## Project Structure
 ```text
-
 PythonProject/
-
-├── site\_security\_report.py
-
+├── site_security_report.py
 ├── reports/
-
-│   └── security\_report\_\*.pdf
-
+│   └── security_report_*.pdf
+├── screenshots/
+│   └── dashboard.png
 ├── .gitignore
-
 └── README.md
+```
 
+## Features
+- Performs website security checks
+- Collects security-related information
+- Generates a PDF security report
+- Stores generated reports in the `reports` directory
 
+## Sample Reports
+Take a look at the [`reports`](reports/) folder for sample reports generated for **apple.com** and **example.com** (a sanitized sample).
 
-**Features**
+## Dashboard Preview
+Here is what the tool looks like in the browser:
 
-Performs website security checks
+![Dashboard screenshot](screenshots/dashboard.png)
 
+## Requirements
+- Python 3.x
+- Required Python packages listed in the project configuration/code
 
-
-Collects security-related information
-
-
-
-Generates a PDF security report
-
-
-
-Stores generated reports in the reports directory
-
-
-
-**Requirements**
-
-Python 3.x
-
-
-
-Required Python packages listed in the project configuration/code
-
-
-
-**Running the Project**
-
+## Running the Project
 Activate the virtual environment and run:
 
+```bash
+python site_security_report.py
+```
 
+The generated security report will be saved in the `reports` directory.
 
-python site\_security\_report.py
+## Purpose
+This project was developed as part of a practical cybersecurity/security assessment project. It is intended for authorized testing and educational purposes only.
 
-
-
-The generated security report will be saved in the reports directory.
-
-
-
-**Purpose**
+## Author
+kgdartey
 
 This project was developed as part of a practical cybersecurity/security assessment project.
 
