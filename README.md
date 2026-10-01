@@ -27,7 +27,7 @@ Take a look at the [`reports`](reports/) folder for sample reports generated for
 ## Dashboard Preview
 Here is what the tool looks like in the browser:
 
-![Dashboard screenshot](screenshots/dashboard.png)
+![Dashboard screenshot](Screenshots/dashboard.png)
 
 ## Requirements
 - Python 3.x
